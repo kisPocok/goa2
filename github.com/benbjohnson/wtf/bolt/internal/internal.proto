@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package internal;
+
+message Dial {
+	string ID = 1;
+	string Token = 2;
+	string Name = 3;
+	double Level = 4;
+	int64 ModTime = 5;
+}
+
